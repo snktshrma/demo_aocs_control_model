@@ -14,5 +14,11 @@ This repository contains the development of the Attitude and Orbit Control Syste
 - Designing linear and non--linear controllers for attitude stabilization and tracking.
 - Prioritizing system modeling as the foundation for further development.
 
+## Model with constant Torque input from Single Gimballed CMGs
+![Constant Torque Input](assets/const_inp_T.png)
+
+### More details regarding equations:
+[Resources and Equations](resources/)
+
 ## Future Work
 Subsequent phases will expand on nonlinear and adaptive control strategies, fault-tolerant mechanisms, and advanced functionalities aligned with real-world space station requirements.
