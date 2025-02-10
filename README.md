@@ -14,6 +14,17 @@ This repository contains the development of the Attitude and Orbit Control Syste
 - Designing linear and non--linear controllers for attitude stabilization and tracking.
 - Prioritizing system modeling as the foundation for further development.
 
+## Build and Run
+```bash
+mkdir build && cd build
+cmake ..
+make
+./iss_dynamics
+
+# To vusulaise the dynamics
+python ../scripts/vis_data.py
+```
+
 ## Model with constant Torque input from Single Gimballed CMGs
 ![Constant Torque Input](assets/const_inp_T.png)
 
